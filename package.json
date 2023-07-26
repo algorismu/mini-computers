@@ -2,13 +2,11 @@
   "name": "@mini-computers/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {
-  },
+  "scripts": {},
   "private": true,
-  "dependencies": {
-  },
   "devDependencies": {
-    "nx": "16.5.5",
-    "@nx/workspace": "16.5.5"
+    "@nrwl/angular": "^16.5.5",
+    "@nx/workspace": "16.5.5",
+    "nx": "16.5.5"
   }
 }
