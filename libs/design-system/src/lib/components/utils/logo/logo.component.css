@@ -1,0 +1,28 @@
+#logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--logo-font);
+  font-size: 2rem;
+  color: var(--base-white);
+  /* border: 1px solid black; */
+}
+
+#logo .first {
+  display: flex;
+  height: 4rem;
+  width: 4rem;
+
+  padding: 0rem 0.5rem;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1rem;
+  border-radius: 0.3125rem 0rem;
+  background: var(--royal-violet);
+}
+
+#logo .second {
+  -webkit-text-stroke: 0.08rem var(--royal-violet);
+  /* border: 1px solid red; */
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Titan+One&display=swap');
+
+/* Simple CSS reset */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /* Base colors */
+  --royal-violet: hsla(235, 53%, 47%, 1);
+  --base-green: hsla(173, 70%, 35%, 1);
+  --base-red: hsla(355, 78%, 60%, 1);
+  --base-black: hsla(30, 11%, 4%, 1);
+  --base-gray: hsla(30, 1%, 33%, 1);
+  --base-light-gray: hsla(60, 1%, 61%, 1);
+  --base-white: hsla(120, 4%, 91%, 1);
+
+  /* Shade colors */
+  --violet-300: hsla(235, 47%, 74%, 1);
+
+  /* Warm colors */
+  --warm-yellow: hsla(49, 94%, 49%, 1);
+  --warm-red: hsla(353, 100%, 41%, 1);
+
+  /* Fonts */
+  --logo-font: 'Titan One', cursive;
+  --primary-font: 'Poppins', sans-serif;
+}

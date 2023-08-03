@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { LogoComponent } from '@mini-computers/design-system';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [RouterModule, LogoComponent],
   selector: 'storefront-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
